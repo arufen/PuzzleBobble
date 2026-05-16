@@ -193,6 +193,11 @@ void Image2::RenderCenter()
 	DrawRotaGraphF(x, y, 1.0f, 0, image, 1, 0, 0);
 }
 
+void Image2::RenderCenter(float x, float y)
+{
+	DrawRotaGraphF(x, y, 1.0f, 0, image, 1, 0, 0);
+}
+
 float easeOutBounceFunc(float t) {
 	const float n1 = 7.5625f;
 	const float d1 = 2.75f;

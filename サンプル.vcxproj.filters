@@ -10,6 +10,9 @@
     <Filter Include="program\System">
       <UniqueIdentifier>{bee18360-03b4-4d70-8e3f-50858fdfe923}</UniqueIdentifier>
     </Filter>
+    <Filter Include="program\Singleton">
+      <UniqueIdentifier>{685131df-be6f-4a53-bef2-e1c816cc39a8}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="program\Game.cpp">
@@ -39,6 +42,9 @@
     <ClCompile Include="program\FrameBox.cpp">
       <Filter>program\Object</Filter>
     </ClCompile>
+    <ClCompile Include="program\ImageManager.cpp">
+      <Filter>program\Singleton</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="program\Game.h">
@@ -67,6 +73,9 @@
     </ClInclude>
     <ClInclude Include="program\FrameBox.h">
       <Filter>program\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="program\ImageManager.h">
+      <Filter>program\Singleton</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

@@ -29,6 +29,7 @@ private:
 	float currentFrame;
 };
 
+//better version for image
 class Image2
 {
 public:
@@ -39,6 +40,7 @@ public:
 	//Method
 	void InitialImageAndSize(int Loadimage);
 	void RenderCenter();
+	void RenderCenter(float x, float y);
 
 	Image2() : image(-1), x(0), y(0), sizeX(0), sizeY(0) {}
 };
@@ -80,8 +82,9 @@ public:
 };
 
 
-float Lerp(float a, float b, float t);
-float GetAngle(float x1, float y1, float x2, float y2);
+float Lerp(float a, float b, float t); //smooth interpolation
+float GetAngle(float x1, float y1, float x2, float y2); //get angle point to point
+//NOTE: THE ANGLE RETURNS RANGING FROM -180 TO 180
 //float GetDistance(float x1, float y1, float x2, float y2);
 float ToRadius(float angle);
 void MoveTowards(float& x, float& y, float rot, float speed);

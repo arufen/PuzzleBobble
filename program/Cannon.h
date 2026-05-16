@@ -12,6 +12,7 @@ public:
 
 	//Singleton
 	constexpr static float LINE_LENGTH = 100.0f;
+	const static Float2 CANNON_POS;
 
 	//Constructor
 	Cannon(Float2 pos) : 
@@ -24,11 +25,11 @@ public:
 	Float2 position;
 	float rotation;	
 
-	//Store Ball
-	vector<Ball> BallList;
-
 	//Shoot Ball
 	void ShootBall();
+
+	//Update
+	void Update();
 
 	//Draw render
 	void Render();

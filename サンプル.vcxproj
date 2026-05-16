@@ -124,6 +124,7 @@
       <ConformanceMode>true</ConformanceMode>
       <AdditionalIncludeDirectories>dxlib</AdditionalIncludeDirectories>
       <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <LanguageStandard>Default</LanguageStandard>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -141,6 +142,7 @@
       <ConformanceMode>true</ConformanceMode>
       <AdditionalIncludeDirectories>dxlib</AdditionalIncludeDirectories>
       <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <LanguageStandard>Default</LanguageStandard>
     </ClCompile>
     <Link>
       <SubSystem>Windows</SubSystem>
@@ -158,6 +160,7 @@
     <ClCompile Include="program\Game.cpp" />
     <ClCompile Include="program\HelpfulFunc.cpp" />
     <ClCompile Include="program\Hit.cpp" />
+    <ClCompile Include="program\ImageManager.cpp" />
     <ClCompile Include="program\Main.cpp" />
     <ClCompile Include="program\Random.cpp" />
   </ItemGroup>
@@ -169,6 +172,7 @@
     <ClInclude Include="program\Game.h" />
     <ClInclude Include="program\HelpfulFunc.h" />
     <ClInclude Include="program\Hit.h" />
+    <ClInclude Include="program\ImageManager.h" />
     <ClInclude Include="program\Main.h" />
     <ClInclude Include="program\Random.h" />
   </ItemGroup>
